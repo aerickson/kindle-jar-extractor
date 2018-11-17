@@ -19,8 +19,7 @@ MSG_SLNUM_E=3
 MSG_SLNUM_C=4
 MSG_CUR_LVL=/var/local/system/syslog_level
 
-logmsg()
-{
+logmsg() {
     local _NVPAIRS
     local _FREETEXT
     local _MSG_SLLVL
@@ -51,8 +50,7 @@ if [ -z "${_PERCENT_COMPLETE}" ]; then
     export _PERCENT_COMPLETE=0
 fi
 
-update_percent_complete()
-{
+update_percent_complete() {
     _PERCENT_COMPLETE=$((${_PERCENT_COMPLETE} + $1))
     update_progressbar ${_PERCENT_COMPLETE}
 }
