@@ -60,6 +60,8 @@ ERR=${OK}
 
 update_percent_complete 2
 
+# TODO: cleanup /lib? if it exists already we'll have /lib/lib
+
 cp -r /opt/amazon/ebook/lib /mnt/us/lib
 
 logmsg "I" "update" "Extracted jar files"
