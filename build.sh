@@ -4,7 +4,7 @@ set -e
 
 HACKNAME="jarextractor"
 PKGNAME="${HACKNAME}"
-PKGVER="0.1.1"
+PKGVER="0.1.2"
 
 # cleanup
 rm *.bin
