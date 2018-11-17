@@ -65,6 +65,7 @@ ERR=${OK}
 DEST=/mnt/us/jarextractor
 mkdir -p $DEST
 cp -r /opt/amazon/ebook/lib $DEST
+cp -r /opt/amazon/ebook/booklet $DEST
 
 logmsg "I" "update" "Extracted jar files"
 
