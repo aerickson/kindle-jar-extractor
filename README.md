@@ -6,6 +6,7 @@ Found on the internet. Not written by me.
 
 ## directions
 
-1. create update bin with https://github.com/NiLuJe/KindleTool
-1. install on device (MRPI or standard place at root method)
-1. jars will be in /lib
+1. install https://github.com/NiLuJe/KindleTool
+1. `./build.sh`
+1. install update bin created above on device (MRPI or standard place at root method)
+1. jars will be copied to /lib after running the update
