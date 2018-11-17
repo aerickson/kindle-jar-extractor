@@ -62,7 +62,9 @@ ERR=${OK}
 
 # TODO: cleanup /lib? if it exists already we'll have /lib/lib
 
-cp -r /opt/amazon/ebook/lib /mnt/us/lib
+DEST=/mnt/us/jarextractor
+mkdir -p $DEST
+cp -r /opt/amazon/ebook/lib $DEST
 
 logmsg "I" "update" "Extracted jar files"
 

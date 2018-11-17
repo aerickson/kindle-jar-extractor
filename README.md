@@ -10,4 +10,4 @@ Original source found at http://cowlark.com/kindle/getting-started.html.
 1. install https://github.com/NiLuJe/KindleTool
 1. `./build.sh`
 1. install update bin created above on device (MRPI or standard place at root method)
-1. jars will be copied to /lib after running the update
+1. jars will be at /jarextractor on the device when you mount the device on your computer.
