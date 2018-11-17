@@ -58,7 +58,7 @@ update_percent_complete() {
 OK=0
 ERR=${OK}
 
-update_percent_complete 2
+# update_percent_complete 2
 
 # TODO: cleanup /lib? if it exists already we'll have /lib/lib
 
@@ -66,6 +66,6 @@ cp -r /opt/amazon/ebook/lib /mnt/us/lib
 
 logmsg "I" "update" "Extracted jar files"
 
-update_progressbar 100
+# update_progressbar 100
 
-return ${OK}
+# return ${OK}
