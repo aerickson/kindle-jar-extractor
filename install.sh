@@ -1,6 +1,8 @@
 #!/bin/sh
 #
 
+set -e
+
 _FUNCTIONS=/etc/rc.d/functions
 [ -f ${_FUNCTIONS} ] && . ${_FUNCTIONS}
 
