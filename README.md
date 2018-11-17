@@ -2,7 +2,7 @@
 
 Tool to extract a Kindle device's jars.
 
-Found on the internet. Not written by me.
+Original source found at http://cowlark.com/kindle/getting-started.html.
 
 ## directions
 
